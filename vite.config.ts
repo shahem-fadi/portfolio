@@ -7,8 +7,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 const port = Number(process.env.PORT ?? 5173);
 
 // Replace YOUR_REPO_NAME with your actual GitHub repo name
-const basePath = process.env.BASE_PATH ?? "/YOUR_REPO_NAME/";
-
+const basePath = process.env.BASE_PATH ?? "/portfolio/";
 export default defineConfig({
   base: basePath,
 
